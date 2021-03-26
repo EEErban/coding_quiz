@@ -1,0 +1,15 @@
+body {
+    color: black;
+}
+
+.choice-container {
+    display: flex;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    border-radius: 8px;
+    background: rgba(220, 20, 60, 0.63);
+    font-size: 40px;
+    min-width: 20px;
+
+
+}
