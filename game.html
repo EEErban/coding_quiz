@@ -11,11 +11,37 @@
 
 <body>
     <div class="container">
+<!--Game Heads Up Display-->
         <div id="game" class="justify-content flex-column">
-            <div id="game-display"></div>
+            <div id="game-hud">
+                <div class="hud-item">
+                    <p id="progressText" class="hud-text">
+                        Question
+                    </p>
+                    <div id="progressBar">
+                        <div id="progressBarFull"></div>
+                    </div>
+
+                    </div>
+                </div>
+                <div class="hud-item">
+                    <p class="hud-prefix">
+                        Score
+                    </p>
+                    <h1 class="hud-main-text" id="score">
+                        0
+                    </h1>
+                </div>
+            </div>
+<!--Question Containers-->
+                <div id="question">Who was the duo that founded Nike?</div>
+                <div class="choice-container">
+                    <p class="choice-prefix">A</p>
+                    <p class="choice-text" data-number="1">Choice</p>
+                </div>
         </div>
     </div>
 
     
 </body>
-</html>
+</html> 
