@@ -69,7 +69,26 @@ h2 {
     margin-bottom: 1rem;
     text-decoration: none;
     color: rgb(0, 0, 0);
-    background: linear-gradient(90deg, rgb(230, 92, 50) 50%, rgb(248, 244, 203) 100%);
-    border-radius: 5px;
+    background: linear-gradient(180deg, rgb(236, 76, 70) 50%, rgb(248, 244, 203) 100%);
+    border-radius: 8px;
 
+}
+
+/* Button effect */
+
+.btn:hover {
+    box-shadow: 0 2.5px 0 2.5px rgba(68, 63, 64, 0.849);
+    transition: ease-in-out 150ms;
+    transform: scale(1.2);
+}
+
+#highscores-btn {
+    background: linear-gradient(180deg, rgb(43, 185, 7) 50%, rgb(248, 244, 203) 100%);
+
+}
+
+.btn[disabled]:hover {
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
 }
