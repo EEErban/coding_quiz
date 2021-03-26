@@ -1,15 +1,67 @@
 body {
     color: black;
+    font-size: 40px;
 }
+
+/* Question & Answer Container */
 
 .choice-container {
     display: flex;
     margin-bottom: 0.5rem;
     width: 100%;
     border-radius: 8px;
-    background: rgba(220, 20, 60, 0.63);
+    background: rgba(57, 239, 245, 0.918);
     font-size: 40px;
     min-width: 20px;
+}
 
+.choice-container:hover {
+    transform: scale(1.1);
+    transition: ease-in-out 150ms;
+}
+
+.correct {
+    background: rgb(45, 247, 45) 100%;
+}
+
+.incorrect {
+    background: rgb(250, 0, 0) 100%;
+}
+
+/* Heads up display */
+
+#game-hud {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hud-text {
+    text-align: center;
+    font-size: 40px;
+}
+
+.hud-prefix {
+    text-align: center;
+    font-size: 40px;
+}
+
+.hud-main-text {
+    text-align: center;
+}
+
+#progressBar {
+    width: 20rem;
+    height: 3rem;
+    border: 0.2rem solid rgb(30, 240, 255);
+    margin-top: 2rem;
+    border-radius: 20px;
+    overflow: hidden; 
+}
+
+#progressBarFull {
+    height: 100%;
+    background: rgb(30, 240, 255);
+    width: 0%;
 
 }
+
