@@ -40,10 +40,30 @@ let questions = [
         answer: '1984',
 
     },
+
+    {
+        question: 'Carolyn Davidson the creator of the iconic swoosh logo was paid how much for the design?',
+        choice1: '$35',
+        choice2: '$5',
+        choice3: '$1000',
+        choice4: '$200',
+        answer: '$35',
+
+    },
+
+    {
+        question: 'What is the brands famous slogan?',
+        choice1: 'Impossible is nothing',
+        choice2: 'Just do it',
+        choice3: 'Vorsprung durch technik',
+        choice4: 'You never walk alone',
+        answer: 'Just do it',
+
+    },
 ]
 
 const SCORE_POINTS = 100
-const MAX_QUESTIONS = 3
+const MAX_QUESTIONS = 5
 
 startGame = () => {
     questionCounter = 0
