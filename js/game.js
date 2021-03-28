@@ -106,4 +106,3 @@ incrementScore = num => {
 }
 
 startGame()
-console.log
