@@ -19,5 +19,39 @@ let questions = [
          choice4: 'Joseph W. Foster & Jeff Foster',
          answer: Bill Bowerman & Phil Knight,
 
-    }
+    },
+
+    {
+        question: 'When is Air Max day celebrated?',
+        choice1: 'April 1st',
+        choice2: 'March 26th',
+        choice3: 'February 14th',
+        choice4: 'November 5th',
+        answer: March 26th,
+
+   },
+
+   {
+        question: 'The Air Jordan 1s debuted in what year?',
+        choice1: '1990',
+        choice2: '1979',
+        choice3: '2001',
+        choice4: '1984',
+        answer: 1984,
+
+    },
 ]
+
+const SCORE_POINTS = 100
+const MAX_QUESTIONS = 3
+
+startGame = () => {
+    questionCounter = 0
+    score = 0
+    avaiableQuestions = [...questions]
+    getNewQuestion ()
+}
+
+getNewQuestion = () => {
+    if(avaiableQuestions.length === 0 )
+}
