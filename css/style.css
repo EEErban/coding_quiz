@@ -13,6 +13,12 @@
 
 }
 
+#nike-swoosh {
+    display: flex;
+    justify-content: space-evenly;
+    margin: none;
+}
+
 h1 {
     font-size: 3rem;
     font-weight: lighter;

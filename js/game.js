@@ -10,6 +10,7 @@ let score = 0
 let questionCounter = 0
 let avaiableQuestions = []
 
+//Game questions//
 let questions = [
     {
          question: 'Who were the duo that founded Nike?',
